@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+o<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
   <remote  name="orion"
@@ -30,9 +30,9 @@
 
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="orion" />
 
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="orion" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="orion" revision="14.0-test" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="orion" />
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="orion" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="orion" revision="14.0-test" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="orion"  />
   <project path="vendor/lineage" name="android_vendor_orion" remote="orion" />
   <project path="vendor/addons" name="android_vendor_addons" remote="orion"/>
